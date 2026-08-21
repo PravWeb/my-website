@@ -10,6 +10,20 @@
     height: 100px;
     width: 100px;
 }
+
+nav{
+    display: flex;
+   
+    gap: 10px;
+}
+
+nav>span>a {
+ text-decoration: none;
+ color:  white;
+ border: 2px solid green;
+ border-radius: 5px;
+ padding: 2px;
+}
    </style>
 </head>
 <body>
@@ -22,8 +36,8 @@
     <header>
   <h1>My Personal Site</h1>
   <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
+    <span><a href="#about">About</a></span>
+   <span><a href="#projects">Projects</a></span> 
   </nav>
 </header>
 
@@ -36,5 +50,7 @@
   <h2>Projects</h2>
   <p>Add your projects here.</p>
 </section>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FShNycSSlkGrGdhPvxs_R5JQFauSO1MABfFg4xNd1Q&s=10" alt="">
 </body>
 </html>
